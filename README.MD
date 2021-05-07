@@ -5,7 +5,16 @@
 ```sh
 select * from neighbourhoods
 ```
+3. Als dit werkt moet je dit project clonen [GitHubRepositoryDemo][https://github.com/JorisNijkamp1/RepositoryPatternDemo]
+4. Als dit werkt en je neigbourhoods kan verwijderen en toevoegen kan je verder met de volgende stappen.
+5. 
 
+
+// Voordelen
+    Door dependency injection kan je het overal gemakkelijk gebruiken ne benaderen
+    Abstractie
+    Details verbergen
+    
 
 handige tool voor maken readme.md
 https://dillinger.io/
