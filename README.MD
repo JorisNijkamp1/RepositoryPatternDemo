@@ -10,14 +10,21 @@ select * from neighbourhoods
 5. 
 
 
-// Voordelen
+Voordelen
     Door dependency injection kan je het overal gemakkelijk gebruiken ne benaderen
+   
     Abstractie
+    
     Details verbergen
+    
     Als je na het repository pattern 1 ding wilt veranderen doe je dat op1 plek. Dus niet overal
+    
     Biojvoorbeeld ipv neighbourhood een stad pas je dat aan in interface en repository en klaar.
+    
     Onderhoudbaarheid
+    
     Loose coupling
+    
     Beter testbaar
     
     
