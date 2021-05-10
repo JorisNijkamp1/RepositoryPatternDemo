@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.218
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryPatternDemo", "RepositoryPatternDemo\RepositoryPatternDemo.csproj", "{DC1EA582-4C64-423E-918B-B531DE149164}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryPatternDemo", "RepositoryPatternDemo\RepositoryPatternDemo.csproj", "{DC1EA582-4C64-423E-918B-B531DE149164}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -63,40 +63,5 @@ namespace RepositoryPatternDemo.Controllers
             }
             return View(neighbourhood);
         }
-        
-
-        // GET: Neighbourhoods/Delete/5
-        public async Task<IActionResult> Delete(string id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var neighbourhood = await _context.Neighbourhoods
-                .FirstOrDefaultAsync(m => m.Neighbourhood1 == id);
-            if (neighbourhood == null)
-            {
-                return NotFound();
-            }
-
-            return View(neighbourhood);
-        }
-
-        // POST: Neighbourhoods/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
-        {
-            var neighbourhood = await _context.Neighbourhoods.FindAsync(id);
-            _context.Neighbourhoods.Remove(neighbourhood);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool NeighbourhoodExists(string id)
-        {
-            return _context.Neighbourhoods.Any(e => e.Neighbourhood1 == id);
-        }
     }
 }
